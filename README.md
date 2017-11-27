@@ -14,7 +14,7 @@
  
 
 ## 2. 適用版本
-  - PrestaShop Version 1.6.1.1
+  - PrestaShop Version 1.6.1.4~1.6.1.7
 
 
 ## 3. 安裝導引教學
