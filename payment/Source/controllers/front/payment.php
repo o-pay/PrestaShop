@@ -120,10 +120,10 @@ class OpayPaymentModuleFrontController extends ModuleFrontController
                             $aio->MerchantID = Configuration::get('opay_merchant_id');
                             if ($this->module->isTestMode($aio->MerchantID))
                             {
-                                $service_url = 'https://payment-stage.allpay.com.tw/Cashier/AioCheckOut/V4';
+                                $service_url = 'https://payment-stage.opay.tw/Cashier/AioCheckOut/V4';
                                 $aio->Send['MerchantTradeNo'] = date('YmdHis');
                             } else {
-                                $service_url = 'https://payment.allpay.com.tw/Cashier/AioCheckOut/V4';
+                                $service_url = 'https://payment.opay.tw/Cashier/AioCheckOut/V4';
                             }
                             $aio->HashKey = Configuration::get('opay_hash_key');
                             $aio->HashIV = Configuration::get('opay_hash_iv');

@@ -38,7 +38,7 @@ class Opay extends PaymentModule
         $this->displayName = $this->l('O\'Pay Integration Payment');
         
         # A description for the module, which will be displayed in the back-office's modules
-        $this->description = 'https://www.allpay.com.tw/';
+        $this->description = 'https://www.opay.tw/';
         
         # A message, asking the administrator if he really does want to uninstall the module. To be used in the installation code.
         $this->confirmUninstall = $this->l('Do you want to uninstall O\'Pay payment module?');

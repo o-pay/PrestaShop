@@ -3,7 +3,7 @@
     <name>opay</name>
     <displayName><![CDATA[O'Pay Integration Payment]]></displayName>
     <version><![CDATA[1.1.0629]]></version>
-    <description><![CDATA[https://www.allpay.com.tw/]]></description>
+    <description><![CDATA[https://www.opay.tw/]]></description>
     <author><![CDATA[O'Pay]]></author>
     <tab><![CDATA[payments_gateways]]></tab>
     <confirmUninstall><![CDATA[Do you want to uninstall O'Pay payment module?]]></confirmUninstall>
